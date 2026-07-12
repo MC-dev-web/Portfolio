@@ -4,15 +4,16 @@ import { Navbar } from "./navbar/navbar";
 import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonModule } from '@angular/material/button';
 import { Homepage } from "./homepage/homepage";
+import { Footer } from "./footer/footer";
 
 @Component({
   selector: 'app-root',
   imports: [
-    RouterOutlet,
     Navbar,
     MatDividerModule,
     MatButtonModule,
-    Homepage
+    Homepage,
+    Footer
 ],
   templateUrl: './app.html',
   styleUrl: './app.css'
