@@ -1,8 +1,31 @@
+main{
+    height: auto;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .intro{
-    background-color: aquamarine;
     padding: 1%;
+    display: flex;
 }
-p {
-font-family: Arial, Helvetica, sans-serif;
+
+.prof_summary, .profilePic{
+    flex: 1;
+    width:50%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title{
+    font-size: 26px;
+}
+mat-card-content p{
+    text-align:justify;
+    letter-spacing: 2px;
+    text-indent: 50px;
 }
