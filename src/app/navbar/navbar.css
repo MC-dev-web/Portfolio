@@ -6,6 +6,7 @@ h1{
     font-size: 28px;
     text-align: center;
     padding: 1%;
+    letter-spacing: 4px;
 }
 .nav-list{
     display: flex;
