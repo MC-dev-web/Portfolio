@@ -10,12 +10,11 @@ import { NgClass } from "@angular/common";
     MatCard,
     MatCardTitle,
     MatCardContent,
-    MatCardImage,
-    NgClass
+    MatCardImage
 ],
   templateUrl: './homepage.html',
   styleUrl: './homepage.css',
 })
 export class Homepage {
-  imgSrc = "assets/images/picture2.jpg";
+  imgSrc = "assets/images/picture5.png";
 }

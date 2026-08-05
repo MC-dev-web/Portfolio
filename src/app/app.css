@@ -7,4 +7,5 @@
 .homepage{
     flex: 1;
     display: block;
+    background-image:linear-gradient(0deg,black, transparent);
 }

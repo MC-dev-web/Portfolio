@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, Inject, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Navbar } from "./navbar/navbar";
 import { MatDividerModule } from '@angular/material/divider';
