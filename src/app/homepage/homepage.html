@@ -15,9 +15,10 @@
         </p>
       </mat-card-content>
     </mat-card>
-
-    <mat-card class="profilePic">
-        <img mat-card-image src="assets/images/picture1.jpg" alt="Muka ni MC">
-    </mat-card>
+    <div class="profilePic">      
+      <mat-card>
+        <img mat-card-image [src]="imgSrc" alt="my profile">
+      </mat-card>
+    </div>
   </div>
 </main>
