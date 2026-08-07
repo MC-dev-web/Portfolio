@@ -8,7 +8,6 @@ import { NgClass } from "@angular/common";
   selector: 'app-homepage',
   imports: [
     MatCard,
-    MatCardTitle,
     MatCardContent,
     MatCardImage
 ],
