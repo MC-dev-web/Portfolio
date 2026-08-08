@@ -13,7 +13,8 @@ import { Footer } from "./footer/footer";
     MatDividerModule,
     MatButtonModule,
     Homepage,
-    Footer
+    Footer,
+    RouterOutlet
 ],
   templateUrl: './app.html',
   styleUrl: './app.css'

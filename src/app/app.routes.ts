@@ -8,9 +8,14 @@ import { ErrorPage } from './error-page/error-page';
 export const routes: Routes = [
     {
         path: '',
-        component: App,
-        title: 'Homepage'
+        redirectTo: 'homepage',
+        pathMatch: 'full'
     },
+    {
+        path: 'homepage',
+        component: Homepage,
+        title: 'Homepage'
+        },
     {
         path: 'projects',
         component: Projects,
@@ -30,10 +35,6 @@ export const routes: Routes = [
         path: '**',
         component: ErrorPage,
         title: 'Error Page'
-    },
-    {
-        path: 'homepage',
-        redirectTo: ''
     }
 
 ];
