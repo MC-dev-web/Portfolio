@@ -1,0 +1,14 @@
+.certificate_cont{
+    display: flex;
+}
+.desc, .proof{
+flex: 1;
+}
+mat-card-header{
+   font-style: italic;
+   font-weight: bold;
+}
+mat-card-content{
+    text-align: justify;
+    text-indent: 50px;
+}
