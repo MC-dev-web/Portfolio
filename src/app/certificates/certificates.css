@@ -1,8 +1,15 @@
 .certificate_cont{
     display: flex;
 }
-.desc, .proof{
+/* .desc, .proof{
 flex: 1;
+} */
+.desc{
+    width: 60%;
+}
+.proof{
+    width: 40%;
+    height: 100%;
 }
 mat-card-header{
    font-style: italic;

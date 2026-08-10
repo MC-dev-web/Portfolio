@@ -3,7 +3,6 @@ import { RouterOutlet } from '@angular/router';
 import { Navbar } from "./navbar/navbar";
 import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonModule } from '@angular/material/button';
-import { Homepage } from "./homepage/homepage";
 import { Footer } from "./footer/footer";
 
 @Component({
@@ -12,7 +11,6 @@ import { Footer } from "./footer/footer";
     Navbar,
     MatDividerModule,
     MatButtonModule,
-    Homepage,
     Footer,
     RouterOutlet
 ],
