@@ -18,7 +18,6 @@ p {
 
 .profilePic img{
     width: 100%;
-    /* height: 45vh; */
     object-fit: cover;
     max-width: 100%;
 

@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { MatCard, MatCardTitle, MatCardHeader, MatCardContent, MatCardImage } from "@angular/material/card";
+import { MatCard, MatCardHeader, MatCardContent, MatCardImage } from "@angular/material/card";
 
 @Component({
   selector: 'app-certificates',
-  imports: [MatCard, MatCardTitle, MatCardHeader, MatCardContent, MatCardImage],
+  imports: [MatCard, MatCardHeader, MatCardContent, MatCardImage],
   templateUrl: './certificates.html',
   styleUrl: './certificates.css',
 })
