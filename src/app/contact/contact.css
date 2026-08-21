@@ -1,0 +1,28 @@
+.contact{
+    display: flex;
+}
+mat-card{
+    flex: 1;
+    text-align: center;
+    margin-left:1rem;
+}
+.gmail{
+    /* background-image:linear-gradient(175deg, red,transparent); */
+    border: solid;
+    border-color: red;
+    border-radius: 2px, 2, 2px ,2;
+}
+.linkedIn{
+    border: solid;
+    border-color: aqua;
+}
+.facebook{
+    border: solid;
+    border-color: blue;
+}
+.ig{
+    border: solid;
+    border-color: coral;
+    margin-right:1rem;
+
+}
