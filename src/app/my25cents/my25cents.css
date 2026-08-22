@@ -1,8 +1,8 @@
 .container{
+    flex: 1;
     display: flex;
     background-color: red;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
     /* how to make this piece of shit occupy the whole content zzz */
 }
 .c1{
