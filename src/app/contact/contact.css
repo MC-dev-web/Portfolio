@@ -6,8 +6,11 @@ mat-card{
     text-align: center;
     margin-left:1rem;
 }
+.github{
+    border: solid;
+    border-color: aqua;
+}
 .gmail{
-    /* background-image:linear-gradient(175deg, red,transparent); */
     border: solid;
     border-color: red;
     border-radius: 2px, 2, 2px ,2;
