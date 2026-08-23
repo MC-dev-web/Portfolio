@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { MatCard, MatCardContent, MatCardActions, MatCardFooter } from "@angular/material/card";
 import { MatAnchor } from "@angular/material/button";
+import { MatIcon } from "@angular/material/icon";
 
 @Component({
   selector: 'app-contact',
-  imports: [MatCard, MatCardContent, MatCardActions, MatAnchor, MatCardFooter],
+  imports: [MatCard, MatCardContent, MatCardActions, MatAnchor, MatIcon],
   templateUrl: './contact.html',
   styleUrl: './contact.css',
 })
-export class Contact {}
+export class Contact {
+
+}

@@ -3,17 +3,17 @@
 }
 mat-card{
     flex: 1;
+
     text-align: center;
     margin-left:1rem;
 }
 .github{
     border: solid;
-    border-color: aqua;
+    border-color: darkgray;
 }
 .gmail{
     border: solid;
     border-color: red;
-    border-radius: 2px, 2, 2px ,2;
 }
 .linkedIn{
     border: solid;
@@ -27,5 +27,12 @@ mat-card{
     border: solid;
     border-color: coral;
     margin-right:1rem;
+}
+mat-card{
+        border-radius: 15px 50px;
 
+}
+mat-card-actions{
+    justify-content: center;
+    margin-top: auto;
 }

@@ -13,4 +13,14 @@
     flex:1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+mat-icon[svgIcon="github"]{
+    color: #24292e;
+    transition: color 0.3 ease;
+}
+
+mat-icon[svgIcon="github"]:hover{
+    color: #ff5722;
 }
