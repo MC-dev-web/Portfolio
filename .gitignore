@@ -45,3 +45,16 @@ Thumbs.db
 
 #others 
 package-lock.json
+
+#Environments / secrets 
+.env
+**/.env
+
+#Visual Studio
+.vs/
+*.user
+*.suo
+
+# .Net
+**/bin/
+**/obj/
